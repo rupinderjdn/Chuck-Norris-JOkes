@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Chuck Norris Jokes</title>
+</head>
+<body >
+    <div class="d-flex align-items-center flex-column justify-content-center p-5">
+        <h1 class="m-4">Chuck Norris Joke generator</h1>
+        <form>
+            <div class="m-4">
+                <label for="number"><h4>Number Of Jokes</h4></label>
+                <input class="p-2" type="number" id="number" value="0">
+            </div>
+            <div class="m-4">
+                <button class="btn btn-primary get-jokes">GET JOKES</button>
+            </div>
+        </form>
+        <div class="m-4">
+            <ol id="joke-list">
+
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
